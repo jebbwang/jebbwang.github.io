@@ -39,6 +39,9 @@ footer {
 h1 {
   font-size: 40px;
 }
+h3 {
+  font-size: 25px;
+}
 
 .about-section {
   display: flex;
@@ -101,6 +104,26 @@ h1 {
   border-bottom: pink 0.1em solid;    
 }
 
+.t1:hover{
+  text-decoration: none;
+  border-bottom: pink 0.1em solid;    
+}
+
+.t2:hover{
+  text-decoration: none;
+  border-bottom: pink 0.1em solid;    
+}
+
+.t3:hover{
+  text-decoration: none;
+  border-bottom: pink 0.1em solid;    
+}
+
+.t4:hover{
+  text-decoration: none;
+  border-bottom: pink 0.1em solid;    
+}
+
 .line-up {
   animation: 3.5s anim-lineUp ease-out;
 }
@@ -127,13 +150,13 @@ h1 {
     flex-direction: column;
     gap: 3vh;
   }
-  .profile-pic {
-    min-width: 70vw;
-    /* max-height: auto; */
+  /* .profile-pic {
+    width: 100%;
+    height: auto;
     margin: 0 2vw;
     border-radius: 25px;
     filter: grayscale(5%);
-  }
+  } */
 
   .my-interests {
     margin-top: 6vw;
