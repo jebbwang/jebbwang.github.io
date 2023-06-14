@@ -74,7 +74,7 @@ h3 {
 }
 
 .h1-gradient {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 15vw;
   background: -webkit-linear-gradient(pink, purple, red, violet);
   -webkit-background-clip: text;
